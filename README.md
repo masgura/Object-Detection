@@ -7,7 +7,7 @@ This repository contains all the files for detecting the Tango spacecraft in the
 Once SPEED+ is downloaded it needs to be rearrenged in a correct format.
 
 Original format:
-'''
+```
 | SYNTHETIC
   | IMAGES
       Synthetic images used for training and validation
@@ -17,9 +17,10 @@ Original format:
 | LIGHTBOX
   | IMAGES
       Real images containing lightboxes used for testing
-'''
+```
+
 New format:
-'''
+```
 | SYNTHETIC
   | IMAGES
     | TRAIN
@@ -41,4 +42,4 @@ New format:
       Real images containing lightboxes used for testing
   | LABELS
       .txt files with lightbox testing labels
-'''
+```
