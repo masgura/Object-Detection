@@ -1,0 +1,9 @@
+path: /content/speedplusv2/
+train: synthetic/images/train
+val: synthetic/images/val
+test: 
+  - sunlamp/images
+  - lightbox/images
+
+names:
+  0: ROI
